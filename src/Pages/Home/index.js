@@ -31,10 +31,10 @@ export default function App(props) {
             
             const graph = res.data;           
 
-        graph.map((graph) => {
-            xAxis.push((timeConverter(graph.x)));
-            yAxis.push((parseInt(graph.y)));
-        });               
+            graph.map((graph) => {
+                xAxis.push((timeConverter(graph.x)));
+                yAxis.push((parseInt(graph.y)));
+            });               
 
 
             setChartData({

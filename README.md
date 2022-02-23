@@ -7,3 +7,6 @@ O projeto tem o objetivo de criar uma pequena plataforma de visualização gráf
  - Axios
  - React-router-dom
  - Styled Component
+
+## Status Atual do Projeto
+Não funcional.
